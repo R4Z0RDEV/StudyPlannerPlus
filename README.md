@@ -133,29 +133,8 @@ StudyPlanner+/
 - 저장 실패 시 백업 파일 (`tasks.json.bak`) 생성
 - 애플리케이션 종료 시 자동 저장
 
-## 문제 해결
-
-### Q: 애플리케이션이 시작되지 않습니다.
-
-A: JDK 17 이상이 설치되어 있는지 확인하세요:
-
-```bash
-java -version
-```
-
-### Q: JavaFX 모듈을 찾을 수 없다는 오류
-
-A: Gradle이 자동으로 JavaFX 의존성을 다운로드합니다. `./gradlew clean build`를 실행하세요.
-
-### Q: 데이터가 사라졌습니다.
-
-A: `data/tasks.json.bak` 백업 파일을 `tasks.json`으로 복사하세요.
-
 ## 라이선스
 
 이 프로젝트는 교육 목적으로 제작되었습니다.
 
-## 추가 정보
-
-상세한 기술 문서는 [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md)를 참조하세요.
-# StudyPlannerPlus
+Made by : 공지훈
